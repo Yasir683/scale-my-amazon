@@ -8,9 +8,21 @@ import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import MotionWrapper from "@/components/MotionWrapper";
+import SalesResults from "@/components/SalesResults";
+
+import { client } from "@/sanity/client";
+import { salesQuery, caseStudyQuery } from "@/sanity/queries";
 
 
-export default function Home() {
+export default async function Home() {
+
+
+  const sales = await client.fetch(salesQuery);
+
+
+  const caseStudies = await client.fetch(caseStudyQuery);
+
+
 
   return (
 
@@ -20,9 +32,11 @@ export default function Home() {
       <Navbar />
 
 
+
       <MotionWrapper>
         <Hero />
       </MotionWrapper>
+
 
 
       <MotionWrapper>
@@ -30,9 +44,11 @@ export default function Home() {
       </MotionWrapper>
 
 
+
       <MotionWrapper>
         <About />
       </MotionWrapper>
+
 
 
       <MotionWrapper>
@@ -40,9 +56,15 @@ export default function Home() {
       </MotionWrapper>
 
 
+
+      <SalesResults sales={sales} />
+
+
+
       <MotionWrapper>
-        <Portfolio />
+        <Portfolio cases={caseStudies} />
       </MotionWrapper>
+
 
 
       <MotionWrapper>
@@ -50,9 +72,11 @@ export default function Home() {
       </MotionWrapper>
 
 
+
       <MotionWrapper>
         <Contact />
       </MotionWrapper>
+
 
 
       <Footer />
