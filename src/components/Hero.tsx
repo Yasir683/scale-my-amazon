@@ -194,7 +194,7 @@ export default function Hero() {
 
 
                 <p className="text-sm font-medium text-[#FF9900]">
-                  Manager, Scale My Amazon
+                  Expert, Scale My Amazon
                 </p>
 
 

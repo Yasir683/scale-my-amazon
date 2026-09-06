@@ -5,7 +5,7 @@ import FadeIn from "@/components/animations/FadeIn";
 export default function Reviews() {
   const reviews = [
     {
-      text: "Umair completely turned around our bleeding PPC campaigns. Our ACoS dropped from 42% down to 15.2% within just two months. His knowledge of Amazon keyword mapping is phenomenal.",
+      text: "Yasir completely turned around our bleeding PPC campaigns. Our ACoS dropped from 42% down to 15.2% within just two months. His knowledge of Amazon keyword mapping is phenomenal.",
       name: "Thomas H.",
       role: "FBA Private Label Owner (UK Store)",
       image: "/review-1.png",
@@ -17,7 +17,7 @@ export default function Reviews() {
       image: "/review-2.png",
     },
     {
-      text: "Managing an enterprise Seller Central account is stressful, but Umair handles everything flawlessly from shipment mapping to listing audits. Highly reliable and great communication!",
+      text: "Managing an enterprise Seller Central account is stressful, but Yasir handles everything flawlessly from shipment mapping to listing audits. Highly reliable and great communication!",
       name: "David K.",
       role: "Operations Lead, Nexus Goods (Germany)",
       image: "/review-3.png",
