@@ -61,9 +61,9 @@ export default async function Home() {
 
 
 
-      <MotionWrapper>
+     
         <Portfolio cases={caseStudies} />
-      </MotionWrapper>
+      
 
 
 
