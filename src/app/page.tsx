@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import MotionWrapper from "@/components/MotionWrapper";
 import SalesResults from "@/components/SalesResults";
 import IntroLoader from "@/components/IntroLoader";
+import LandingSection from "@/components/LandingSection"; // 👈 Naya import
 
 import { client } from "@/sanity/client";
 import { salesQuery, caseStudyQuery } from "@/sanity/queries";
@@ -24,6 +25,9 @@ export default async function Home() {
       <IntroLoader />
 
       <Navbar />
+
+      {/* 👇 Naya Landing Section — Hero se pehle */}
+      <LandingSection />
 
       <MotionWrapper>
         <Hero />

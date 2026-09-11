@@ -18,7 +18,7 @@ export default function IntroLoader() {
 
   useEffect(() => {
     const startTime = Date.now();
-    const duration = 3000;
+    const duration =600;
 
     const interval = setInterval(() => {
       const elapsed = Date.now() - startTime;
