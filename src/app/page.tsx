@@ -9,81 +9,51 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import MotionWrapper from "@/components/MotionWrapper";
 import SalesResults from "@/components/SalesResults";
+import IntroLoader from "@/components/IntroLoader";
 
 import { client } from "@/sanity/client";
 import { salesQuery, caseStudyQuery } from "@/sanity/queries";
 
-
 export default async function Home() {
-
-
   const sales = await client.fetch(salesQuery);
-
-
   const caseStudies = await client.fetch(caseStudyQuery);
 
-
-
   return (
-
     <main>
-
+      {/* First Visit Intro Loader */}
+      <IntroLoader />
 
       <Navbar />
-
-
 
       <MotionWrapper>
         <Hero />
       </MotionWrapper>
 
-
-
       <MotionWrapper>
         <Banner />
       </MotionWrapper>
-
-
 
       <MotionWrapper>
         <About />
       </MotionWrapper>
 
-
-
       <MotionWrapper>
         <AmazonServices />
       </MotionWrapper>
 
-
-
       <SalesResults sales={sales} />
 
-
-
-     
-        <Portfolio cases={caseStudies} />
-      
-
-
+      <Portfolio cases={caseStudies} />
 
       <MotionWrapper>
         <Reviews />
       </MotionWrapper>
 
-
-
       <MotionWrapper>
         <Contact />
       </MotionWrapper>
 
-
-
       <Footer />
-
-
     </main>
-
   );
-
 }
