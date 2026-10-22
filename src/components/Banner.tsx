@@ -61,7 +61,7 @@ export default function Banner() {
           <p className="mx-auto mt-4 max-w-2xl text-base font-medium leading-relaxed text-[#0B1F3A]/80 sm:text-lg">
 
             Professional Amazon VA services designed to scale your business to
-            new heights. Proven strategies, real results, and unlimited growth
+            new heights.Proven strategies real results and unlimited growth
             potential.
 
           </p>

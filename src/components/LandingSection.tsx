@@ -40,7 +40,7 @@ export default function LandingSection() {
         <MotionWrapper delay={0.6}>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-200 sm:text-lg">
             From the warehouse floor to the top of search results, we help brands
-            dominate Amazon with data-backed PPC, sharp listing optimization, and
+            dominate Amazon with data backed PPC sharp listing optimization and
             round-the-clock account management built to maximize your ROI.
           </p>
         </MotionWrapper>

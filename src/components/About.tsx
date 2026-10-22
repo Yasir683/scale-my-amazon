@@ -44,7 +44,7 @@ export default function About() {
 
           {[
             {
-              number: "6+",
+              number: "4+",
               title: "Years of Experience",
               desc: "Deep expertise in Amazon business growth, market expansion, and strategic optimization.",
             },

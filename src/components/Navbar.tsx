@@ -54,10 +54,10 @@ export default function Navbar() {
             </div>
             <div className="ml-6 flex flex-col">
               <h1 className="text-lg font-bold leading-tight text-white">
-                Yasir Aslam
+                Yasir Ali
               </h1>
               <p className="text-xs font-semibold text-[#FF9900]">
-                Amazon PL Expert | 6+ Years Experience
+                Amazon PL Expert | 4+ Years Experience
               </p>
             </div>
           </Link>

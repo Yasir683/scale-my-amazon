@@ -7,12 +7,12 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-8 text-center">
 
         <p className="text-sm text-slate-300">
-          © 2023 Yasir Aslam - Amazon Private Label FBA Expert. All rights reserved.
+          © 2022 Yasir Ali - Amazon Private Label FBA Expert. All rights reserved.
         </p>
 
 
         <p className="mt-1 text-sm text-slate-500">
-          Helping businesses scale on Amazon since 2019
+          Helping businesses scale on Amazon since 2022
         </p>
 
 

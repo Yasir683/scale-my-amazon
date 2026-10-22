@@ -27,7 +27,7 @@ export default function Hero() {
 
             <FadeIn delay={0.1}>
               <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Yasir <span className="text-[#FF9900]">Aslam</span>
+                Yasir <span className="text-[#FF9900]">Ali</span>
               </h1>
             </FadeIn>
 
@@ -47,9 +47,9 @@ export default function Hero() {
             <FadeIn delay={0.3}>
 
               <p className="mt-5 max-w-xl text-pretty leading-relaxed text-slate-300">
-                6+ Years of Strategic Excellence in scaling Amazon businesses.
-                Specializing in revenue optimization, market expansion, and
-                data-driven growth strategies that transform struggling sellers
+                4+ Years of Strategic Excellence in scaling Amazon businesses.
+                Specializing in revenue optimization market expansion and
+                data driven growth strategies that transform struggling sellers
                 into market leaders.
               </p>
 
@@ -175,7 +175,7 @@ export default function Hero() {
 
 
               <Image
-                alt="Portrait of Yasir Aslam"
+                alt="Portrait of Yasir Ali"
                 width={1024}
                 height={1536}
                 className="h-auto w-full object-cover"
@@ -189,12 +189,12 @@ export default function Hero() {
 
 
                 <p className="text-lg font-bold text-white">
-                  Yasir Aslam
+                  Yasir Ali
                 </p>
 
 
                 <p className="text-sm font-medium text-[#FF9900]">
-                  Expert, Scale My Amazon
+                  Expert at Scale My Amazon
                 </p>
 
 

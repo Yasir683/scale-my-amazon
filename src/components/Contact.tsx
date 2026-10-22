@@ -50,7 +50,7 @@ export default function Contact() {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
 
               <a
-                href="https://wa.me/923097697339"
+                href="https://wa.me/923214542449"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-xl bg-green-600 px-7 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-green-700"
@@ -85,7 +85,7 @@ export default function Contact() {
                 href="tel:+923097697339"
                 className="mt-2 block text-2xl font-extrabold text-[#FF9900] sm:text-3xl"
               >
-                +92 309-7697339
+                +92 321-4542449
               </a>
 
 
